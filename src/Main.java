@@ -5,15 +5,15 @@ public class Main {
         String firstName = "Ivanov ";
         String middleName = "Ivan ";
         String lastName = "Ivanovich ";
-        String foolName = (firstName + middleName + lastName);
-        System.out.println("Ф. И. О. сотрудника — " + foolName);
+        String fullName = (firstName + middleName + lastName);
+        System.out.println("Ф. И. О. сотрудника — " + fullName);
 
         System.out.println("\nЗадача 2");
-        System.out.println("Данные Ф. И. О. сотрудника для заполнения отчета — " + foolName.toUpperCase());
+        System.out.println("Данные Ф. И. О. сотрудника для заполнения отчета — " + fullName.toUpperCase());
 
         System.out.println("\nЗадача 3");
-        foolName = "Иванов Семён Семёнович";
-        foolName = foolName.replace("ё", "е");
-        System.out.println("Данные Ф. И. О. сотрудника  — " + foolName);
+        fullName = "Иванов Семён Семёнович";
+        fullName = fullName.replace("ё", "е");
+        System.out.println("Данные Ф. И. О. сотрудника  — " + fullName);
     }
 }
