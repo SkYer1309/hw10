@@ -12,7 +12,7 @@ public class Main {
         System.out.println("Данные Ф. И. О. сотрудника для заполнения отчета — " + foolName.toUpperCase());
 
         System.out.println("\nЗадача 3");
-        System.out.println(foolName = "Иванов Семён Семёнович");
+        foolName = "Иванов Семён Семёнович";
         foolName = foolName.replace("ё", "е");
         System.out.println("Данные Ф. И. О. сотрудника  — " + foolName);
     }
